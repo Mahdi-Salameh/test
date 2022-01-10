@@ -1,0 +1,2 @@
+/usr/bin/ar cr libarch_x86_loader_asm.a CMakeFiles/arch_x86_loader_asm.dir/entry.asm.o 
+/usr/bin/ranlib libarch_x86_loader_asm.a

@@ -1,0 +1,14 @@
+# Target labels
+ tests
+# Source files and their labels
+/root/hermitux/hermitux-kernel/build/CMakeFiles/tests
+/root/hermitux/hermitux-kernel/build/CMakeFiles/tests.rule
+/root/hermitux/hermitux-kernel/build/CMakeFiles/tests-complete.rule
+/root/hermitux/hermitux-kernel/build/tests-prefix/src/tests-stamp/tests-install.rule
+/root/hermitux/hermitux-kernel/build/tests-prefix/src/tests-stamp/tests-mkdir.rule
+/root/hermitux/hermitux-kernel/build/tests-prefix/src/tests-stamp/tests-download.rule
+/root/hermitux/hermitux-kernel/build/tests-prefix/src/tests-stamp/tests-update.rule
+/root/hermitux/hermitux-kernel/build/tests-prefix/src/tests-stamp/tests-patch.rule
+/root/hermitux/hermitux-kernel/build/tests-prefix/src/tests-stamp/tests-configure.rule
+/root/hermitux/hermitux-kernel/build/tests-prefix/src/tests-stamp/tests-build.rule
+/root/hermitux/hermitux-kernel/build/tests-prefix/src/tests-stamp/tests-relink.rule

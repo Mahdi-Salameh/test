@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/root/hermitux/hermitux-kernel/build/tests-prefix/src/tests-build",
+  "command": "/opt/hermit/bin/x86_64-hermit-gcc  -I/root/hermitux/hermitux-kernel/cmake/../prefix/x86_64-hermit/include -I/root/hermitux/hermitux-kernel/build/local_prefix/root/hermitux/hermitux-kernel/prefix/x86_64-hermit/include -m64 -mtls-direct-seg-refs -O3 -ftree-vectorize -g -o CMakeFiles/hermitux.dir/hermitux.c.obj -c /root/hermitux/hermitux-kernel/usr/tests/hermitux.c",
+  "file": "/root/hermitux/hermitux-kernel/usr/tests/hermitux.c"
+}
+]

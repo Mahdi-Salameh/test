@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/root/hermitux/hermitux-kernel/build/CMakeFiles/tests"
+		},
+		{
+			"file" : "/root/hermitux/hermitux-kernel/build/CMakeFiles/tests.rule"
+		},
+		{
+			"file" : "/root/hermitux/hermitux-kernel/build/CMakeFiles/tests-complete.rule"
+		},
+		{
+			"file" : "/root/hermitux/hermitux-kernel/build/tests-prefix/src/tests-stamp/tests-install.rule"
+		},
+		{
+			"file" : "/root/hermitux/hermitux-kernel/build/tests-prefix/src/tests-stamp/tests-mkdir.rule"
+		},
+		{
+			"file" : "/root/hermitux/hermitux-kernel/build/tests-prefix/src/tests-stamp/tests-download.rule"
+		},
+		{
+			"file" : "/root/hermitux/hermitux-kernel/build/tests-prefix/src/tests-stamp/tests-update.rule"
+		},
+		{
+			"file" : "/root/hermitux/hermitux-kernel/build/tests-prefix/src/tests-stamp/tests-patch.rule"
+		},
+		{
+			"file" : "/root/hermitux/hermitux-kernel/build/tests-prefix/src/tests-stamp/tests-configure.rule"
+		},
+		{
+			"file" : "/root/hermitux/hermitux-kernel/build/tests-prefix/src/tests-stamp/tests-build.rule"
+		},
+		{
+			"file" : "/root/hermitux/hermitux-kernel/build/tests-prefix/src/tests-stamp/tests-relink.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"tests"
+		],
+		"name" : "tests"
+	}
+}

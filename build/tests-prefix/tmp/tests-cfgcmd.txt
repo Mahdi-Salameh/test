@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DCMAKE_INSTALL_PREFIX=/root/hermitux/hermitux-kernel/prefix;-DLOCAL_PREFIX_BASE_DIR=/root/hermitux/hermitux-kernel/build/local_prefix;-DNO_NET=OFF;-DNO_IRCCE=OFF;-DMAX_ARGC_ENVC=128;-DCMAKE_INSTALL_MESSAGE=NEVER;-DCMAKE_EXPORT_COMPILE_COMMANDS=true;-DMAX_ARGC_ENVC=128;--no-warn-unused-cli;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

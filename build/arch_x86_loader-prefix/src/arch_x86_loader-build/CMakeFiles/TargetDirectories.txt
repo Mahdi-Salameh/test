@@ -1,0 +1,9 @@
+/root/hermitux/hermitux-kernel/build/arch_x86_loader-prefix/src/arch_x86_loader-build/CMakeFiles/install/strip.dir
+/root/hermitux/hermitux-kernel/build/arch_x86_loader-prefix/src/arch_x86_loader-build/CMakeFiles/install.dir
+/root/hermitux/hermitux-kernel/build/arch_x86_loader-prefix/src/arch_x86_loader-build/CMakeFiles/list_install_components.dir
+/root/hermitux/hermitux-kernel/build/arch_x86_loader-prefix/src/arch_x86_loader-build/CMakeFiles/rebuild_cache.dir
+/root/hermitux/hermitux-kernel/build/arch_x86_loader-prefix/src/arch_x86_loader-build/CMakeFiles/edit_cache.dir
+/root/hermitux/hermitux-kernel/build/arch_x86_loader-prefix/src/arch_x86_loader-build/CMakeFiles/install/local.dir
+/root/hermitux/hermitux-kernel/build/arch_x86_loader-prefix/src/arch_x86_loader-build/CMakeFiles/arch_x86_loader_includes_ide.dir
+/root/hermitux/hermitux-kernel/build/arch_x86_loader-prefix/src/arch_x86_loader-build/CMakeFiles/arch_x86_loader.dir
+/root/hermitux/hermitux-kernel/build/arch_x86_loader-prefix/src/arch_x86_loader-build/CMakeFiles/arch_x86_loader_asm.dir

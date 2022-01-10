@@ -1,0 +1,634 @@
+The target system is: Generic -  - 
+The host system is: Linux - 5.10.0-9-amd64 - x86_64
+Checking whether the ASM_NASM compiler is NASM using "-v" matched "(NASM version)":
+NASM version 2.15.05
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/hermit/bin/x86_64-hermit-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/root/hermitux/hermitux-kernel/build/CMakeFiles/3.18.4/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/hermit/bin/x86_64-hermit-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/root/hermitux/hermitux-kernel/build/CMakeFiles/3.18.4/CompilerIdCXX/a.out"
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: /opt/hermit/bin/x86_64-hermit-gfortran 
+Build flags: 
+Id flags: -v 
+
+The output was:
+0
+Driving: /opt/hermit/bin/x86_64-hermit-gfortran -v CMakeFortranCompilerId.F -l gfortran -l m
+Using built-in specs.
+COLLECT_GCC=/opt/hermit/bin/x86_64-hermit-gfortran
+COLLECT_LTO_WRAPPER=/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/lto-wrapper
+Target: x86_64-hermit
+Configured with: ../configure --target=x86_64-hermit --prefix=/opt/hermit --with-newlib --disable-multilib --without-libatomic --with-tune=generic --enable-languages=c,c++,go,fortran,lto --disable-nls --disable-shared --disable-libssp --enable-threads=posix --disable-libgomp --enable-tls --enable-lto --disable-symvers
+Thread model: posix
+gcc version 6.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-mtune=generic' '-march=x86-64'
+ /opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/tmp/ccviuO75.f90 -quiet -v CMakeFortranCompilerId.F -quiet -dumpbase CMakeFortranCompilerId.F -mtune=generic -march=x86-64 -auxbase CMakeFortranCompilerId -version -fintrinsic-modules-path /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/finclude -o /tmp/ccEHbRo6.s
+GNU Fortran (GCC) version 6.3.0 (x86_64-hermit)
+	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version 0.15
+warning: GMP header version 6.1.2 differs from library version 6.2.1.
+warning: MPFR header version 4.0.1 differs from library version 4.1.0.
+warning: MPC header version 1.1.0 differs from library version 1.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/sys-include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/finclude
+ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include
+ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include-fixed
+ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/include
+End of search list.
+GNU Fortran2008 (GCC) version 6.3.0 (x86_64-hermit)
+	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version 0.15
+warning: GMP header version 6.1.2 differs from library version 6.2.1.
+warning: MPFR header version 4.0.1 differs from library version 4.1.0.
+warning: MPC header version 1.1.0 differs from library version 1.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-v' '-mtune=generic' '-march=x86-64'
+ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/bin/as -v -o /tmp/ccmS7P85.o /tmp/ccEHbRo6.s
+GNU assembler version 2.30.51 (x86_64-hermit) using BFD version (GNU Binutils) 2.30.51.20180517
+Reading specs from /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-mtune=generic' '-march=x86-64'
+COMPILER_PATH=/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/:/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/:/opt/hermit/libexec/gcc/x86_64-hermit/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/:/opt/hermit/lib/gcc/x86_64-hermit/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/bin/
+LIBRARY_PATH=/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib/
+COLLECT_GCC_OPTIONS='-v' '-mtune=generic' '-march=x86-64'
+ /opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/collect2 -plugin /opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/liblto_plugin.so -plugin-opt=/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdS0yB6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lg -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lhermit -plugin-opt=-pass-through=-lgcc /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib/crt0.o /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crti.o /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crtbegin.o -L/opt/hermit/lib/gcc/x86_64-hermit/6.3.0 -L/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib /tmp/ccmS7P85.o -lgfortran -lm -lgcc -lm -lgcc -z max-page-size=0x1000 -z common-page-size=0x1000 -lc -lg -lm -lhermit -lgcc /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crtend.o /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-mtune=generic' '-march=x86-64'
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+
+The Fortran compiler identification is GNU, found in "/root/hermitux/hermitux-kernel/build/CMakeFiles/3.18.4/CompilerIdFortran/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /root/hermitux/hermitux-kernel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b1872/fast && gmake[1]: Entering directory '/root/hermitux/hermitux-kernel/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_b1872.dir/build.make CMakeFiles/cmTC_b1872.dir/build
+gmake[2]: Entering directory '/root/hermitux/hermitux-kernel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b1872.dir/CMakeCCompilerABI.c.obj
+/opt/hermit/bin/x86_64-hermit-gcc   -v -o CMakeFiles/cmTC_b1872.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/opt/hermit/bin/x86_64-hermit-gcc
+Target: x86_64-hermit
+Configured with: ../configure --target=x86_64-hermit --prefix=/opt/hermit --with-newlib --disable-multilib --without-libatomic --with-tune=generic --enable-languages=c,c++,go,fortran,lto --disable-nls --disable-shared --disable-libssp --enable-threads=posix --disable-libgomp --enable-tls --enable-lto --disable-symvers
+Thread model: posix
+gcc version 6.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b1872.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ /opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/cc1 -quiet -v /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_b1872.dir/CMakeCCompilerABI.c.obj -version -o /tmp/ccqXM4j0.s
+GNU C11 (GCC) version 6.3.0 (x86_64-hermit)
+	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version 0.15
+warning: GMP header version 6.1.2 differs from library version 6.2.1.
+warning: MPFR header version 4.0.1 differs from library version 4.1.0.
+warning: MPC header version 1.1.0 differs from library version 1.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/sys-include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include
+ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include-fixed
+ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/include
+End of search list.
+GNU C11 (GCC) version 6.3.0 (x86_64-hermit)
+	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version 0.15
+warning: GMP header version 6.1.2 differs from library version 6.2.1.
+warning: MPFR header version 4.0.1 differs from library version 4.1.0.
+warning: MPC header version 1.1.0 differs from library version 1.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 64c747eb9a79829d637f603926c07f5c
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b1872.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/bin/as -v -o CMakeFiles/cmTC_b1872.dir/CMakeCCompilerABI.c.obj /tmp/ccqXM4j0.s
+GNU assembler version 2.30.51 (x86_64-hermit) using BFD version (GNU Binutils) 2.30.51.20180517
+COMPILER_PATH=/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/:/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/:/opt/hermit/libexec/gcc/x86_64-hermit/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/:/opt/hermit/lib/gcc/x86_64-hermit/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/bin/
+LIBRARY_PATH=/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b1872.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_b1872
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1872.dir/link.txt --verbose=1
+/opt/hermit/bin/x86_64-hermit-gcc  -v CMakeFiles/cmTC_b1872.dir/CMakeCCompilerABI.c.obj -o cmTC_b1872 
+Using built-in specs.
+COLLECT_GCC=/opt/hermit/bin/x86_64-hermit-gcc
+COLLECT_LTO_WRAPPER=/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/lto-wrapper
+Target: x86_64-hermit
+Configured with: ../configure --target=x86_64-hermit --prefix=/opt/hermit --with-newlib --disable-multilib --without-libatomic --with-tune=generic --enable-languages=c,c++,go,fortran,lto --disable-nls --disable-shared --disable-libssp --enable-threads=posix --disable-libgomp --enable-tls --enable-lto --disable-symvers
+Thread model: posix
+gcc version 6.3.0 (GCC) 
+COMPILER_PATH=/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/:/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/:/opt/hermit/libexec/gcc/x86_64-hermit/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/:/opt/hermit/lib/gcc/x86_64-hermit/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/bin/
+LIBRARY_PATH=/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b1872' '-mtune=generic' '-march=x86-64'
+ /opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/collect2 -plugin /opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/liblto_plugin.so -plugin-opt=/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrEBKbt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lg -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lhermit -plugin-opt=-pass-through=-lgcc -o cmTC_b1872 /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib/crt0.o /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crti.o /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crtbegin.o -L/opt/hermit/lib/gcc/x86_64-hermit/6.3.0 -L/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib CMakeFiles/cmTC_b1872.dir/CMakeCCompilerABI.c.obj -lgcc -z max-page-size=0x1000 -z common-page-size=0x1000 -lc -lg -lm -lhermit -lgcc /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crtend.o /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b1872' '-mtune=generic' '-march=x86-64'
+gmake[2]: Leaving directory '/root/hermitux/hermitux-kernel/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/root/hermitux/hermitux-kernel/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include]
+    add: [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include-fixed]
+    add: [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/include]
+  end of search list found
+  collapse include dir [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include] ==> [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include]
+  collapse include dir [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include-fixed] ==> [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include-fixed]
+  collapse include dir [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/include] ==> [/opt/hermit/x86_64-hermit/include]
+  implicit include dirs: [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include;/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include-fixed;/opt/hermit/x86_64-hermit/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(x86_64-hermit-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/hermitux/hermitux-kernel/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_b1872/fast && gmake[1]: Entering directory '/root/hermitux/hermitux-kernel/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_b1872.dir/build.make CMakeFiles/cmTC_b1872.dir/build]
+  ignore line: [gmake[2]: Entering directory '/root/hermitux/hermitux-kernel/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_b1872.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/opt/hermit/bin/x86_64-hermit-gcc   -v -o CMakeFiles/cmTC_b1872.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/hermit/bin/x86_64-hermit-gcc]
+  ignore line: [Target: x86_64-hermit]
+  ignore line: [Configured with: ../configure --target=x86_64-hermit --prefix=/opt/hermit --with-newlib --disable-multilib --without-libatomic --with-tune=generic --enable-languages=c c++ go fortran lto --disable-nls --disable-shared --disable-libssp --enable-threads=posix --disable-libgomp --enable-tls --enable-lto --disable-symvers]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b1872.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/cc1 -quiet -v /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_b1872.dir/CMakeCCompilerABI.c.obj -version -o /tmp/ccqXM4j0.s]
+  ignore line: [GNU C11 (GCC) version 6.3.0 (x86_64-hermit)]
+  ignore line: [	compiled by GNU C version 7.3.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version 0.15]
+  ignore line: [warning: GMP header version 6.1.2 differs from library version 6.2.1.]
+  ignore line: [warning: MPFR header version 4.0.1 differs from library version 4.1.0.]
+  ignore line: [warning: MPC header version 1.1.0 differs from library version 1.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/sys-include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include]
+  ignore line: [ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include-fixed]
+  ignore line: [ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C11 (GCC) version 6.3.0 (x86_64-hermit)]
+  ignore line: [	compiled by GNU C version 7.3.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version 0.15]
+  ignore line: [warning: GMP header version 6.1.2 differs from library version 6.2.1.]
+  ignore line: [warning: MPFR header version 4.0.1 differs from library version 4.1.0.]
+  ignore line: [warning: MPC header version 1.1.0 differs from library version 1.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 64c747eb9a79829d637f603926c07f5c]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b1872.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/bin/as -v -o CMakeFiles/cmTC_b1872.dir/CMakeCCompilerABI.c.obj /tmp/ccqXM4j0.s]
+  ignore line: [GNU assembler version 2.30.51 (x86_64-hermit) using BFD version (GNU Binutils) 2.30.51.20180517]
+  ignore line: [COMPILER_PATH=/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/:/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/:/opt/hermit/libexec/gcc/x86_64-hermit/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/:/opt/hermit/lib/gcc/x86_64-hermit/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/bin/]
+  ignore line: [LIBRARY_PATH=/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b1872.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_b1872]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1872.dir/link.txt --verbose=1]
+  ignore line: [/opt/hermit/bin/x86_64-hermit-gcc  -v CMakeFiles/cmTC_b1872.dir/CMakeCCompilerABI.c.obj -o cmTC_b1872 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/hermit/bin/x86_64-hermit-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-hermit]
+  ignore line: [Configured with: ../configure --target=x86_64-hermit --prefix=/opt/hermit --with-newlib --disable-multilib --without-libatomic --with-tune=generic --enable-languages=c c++ go fortran lto --disable-nls --disable-shared --disable-libssp --enable-threads=posix --disable-libgomp --enable-tls --enable-lto --disable-symvers]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/:/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/:/opt/hermit/libexec/gcc/x86_64-hermit/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/:/opt/hermit/lib/gcc/x86_64-hermit/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/bin/]
+  ignore line: [LIBRARY_PATH=/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b1872' '-mtune=generic' '-march=x86-64']
+  link line: [ /opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/collect2 -plugin /opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/liblto_plugin.so -plugin-opt=/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrEBKbt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lg -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lhermit -plugin-opt=-pass-through=-lgcc -o cmTC_b1872 /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib/crt0.o /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crti.o /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crtbegin.o -L/opt/hermit/lib/gcc/x86_64-hermit/6.3.0 -L/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib CMakeFiles/cmTC_b1872.dir/CMakeCCompilerABI.c.obj -lgcc -z max-page-size=0x1000 -z common-page-size=0x1000 -lc -lg -lm -lhermit -lgcc /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crtend.o /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crtn.o]
+    arg [/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccrEBKbt.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lg] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lhermit] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b1872] ==> ignore
+    arg [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib/crt0.o] ==> ignore
+    arg [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crti.o] ==> ignore
+    arg [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crtbegin.o] ==> ignore
+    arg [-L/opt/hermit/lib/gcc/x86_64-hermit/6.3.0] ==> dir [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0]
+    arg [-L/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib] ==> dir [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib]
+    arg [CMakeFiles/cmTC_b1872.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-zmax-page-size=0x1000] ==> ignore
+    arg [-zcommon-page-size=0x1000] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lg] ==> lib [g]
+    arg [-lm] ==> lib [m]
+    arg [-lhermit] ==> lib [hermit]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crtend.o] ==> ignore
+    arg [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crtn.o] ==> ignore
+  collapse library dir [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0] ==> [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0]
+  collapse library dir [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib] ==> [/opt/hermit/x86_64-hermit/lib]
+  implicit libs: [gcc;c;g;m;hermit;gcc]
+  implicit dirs: [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0;/opt/hermit/x86_64-hermit/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /root/hermitux/hermitux-kernel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_947f1/fast && gmake[1]: Entering directory '/root/hermitux/hermitux-kernel/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_947f1.dir/build.make CMakeFiles/cmTC_947f1.dir/build
+gmake[2]: Entering directory '/root/hermitux/hermitux-kernel/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_947f1.dir/CMakeCXXCompilerABI.cpp.obj
+/opt/hermit/bin/x86_64-hermit-g++   -v -o CMakeFiles/cmTC_947f1.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/opt/hermit/bin/x86_64-hermit-g++
+Target: x86_64-hermit
+Configured with: ../configure --target=x86_64-hermit --prefix=/opt/hermit --with-newlib --disable-multilib --without-libatomic --with-tune=generic --enable-languages=c,c++,go,fortran,lto --disable-nls --disable-shared --disable-libssp --enable-threads=posix --disable-libgomp --enable-tls --enable-lto --disable-symvers
+Thread model: posix
+gcc version 6.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_947f1.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
+ /opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/cc1plus -quiet -v /usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_947f1.dir/CMakeCXXCompilerABI.cpp.obj -version -o /tmp/ccMwdBVW.s
+GNU C++14 (GCC) version 6.3.0 (x86_64-hermit)
+	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version 0.15
+warning: GMP header version 6.1.2 differs from library version 6.2.1.
+warning: MPFR header version 4.0.1 differs from library version 4.1.0.
+warning: MPC header version 1.1.0 differs from library version 1.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/sys-include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/include/c++/6.3.0
+ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/include/c++/6.3.0/x86_64-hermit
+ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/include/c++/6.3.0/backward
+ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include
+ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include-fixed
+ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/include
+End of search list.
+GNU C++14 (GCC) version 6.3.0 (x86_64-hermit)
+	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version 0.15
+warning: GMP header version 6.1.2 differs from library version 6.2.1.
+warning: MPFR header version 4.0.1 differs from library version 4.1.0.
+warning: MPC header version 1.1.0 differs from library version 1.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: e2482e9f719f6d8eaa81d1a22f70750e
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_947f1.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
+ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/bin/as -v -o CMakeFiles/cmTC_947f1.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccMwdBVW.s
+GNU assembler version 2.30.51 (x86_64-hermit) using BFD version (GNU Binutils) 2.30.51.20180517
+COMPILER_PATH=/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/:/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/:/opt/hermit/libexec/gcc/x86_64-hermit/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/:/opt/hermit/lib/gcc/x86_64-hermit/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/bin/
+LIBRARY_PATH=/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_947f1.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_947f1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_947f1.dir/link.txt --verbose=1
+/opt/hermit/bin/x86_64-hermit-g++  -v CMakeFiles/cmTC_947f1.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_947f1 
+Using built-in specs.
+COLLECT_GCC=/opt/hermit/bin/x86_64-hermit-g++
+COLLECT_LTO_WRAPPER=/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/lto-wrapper
+Target: x86_64-hermit
+Configured with: ../configure --target=x86_64-hermit --prefix=/opt/hermit --with-newlib --disable-multilib --without-libatomic --with-tune=generic --enable-languages=c,c++,go,fortran,lto --disable-nls --disable-shared --disable-libssp --enable-threads=posix --disable-libgomp --enable-tls --enable-lto --disable-symvers
+Thread model: posix
+gcc version 6.3.0 (GCC) 
+COMPILER_PATH=/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/:/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/:/opt/hermit/libexec/gcc/x86_64-hermit/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/:/opt/hermit/lib/gcc/x86_64-hermit/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/bin/
+LIBRARY_PATH=/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_947f1' '-mtune=generic' '-march=x86-64'
+ /opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/collect2 -plugin /opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/liblto_plugin.so -plugin-opt=/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrFbboo.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lg -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lhermit -plugin-opt=-pass-through=-lgcc -o cmTC_947f1 /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib/crt0.o /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crti.o /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crtbegin.o -L/opt/hermit/lib/gcc/x86_64-hermit/6.3.0 -L/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib CMakeFiles/cmTC_947f1.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -z max-page-size=0x1000 -z common-page-size=0x1000 -lc -lg -lm -lhermit -lgcc /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crtend.o /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_947f1' '-mtune=generic' '-march=x86-64'
+gmake[2]: Leaving directory '/root/hermitux/hermitux-kernel/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/root/hermitux/hermitux-kernel/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/include/c++/6.3.0]
+    add: [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/include/c++/6.3.0/x86_64-hermit]
+    add: [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/include/c++/6.3.0/backward]
+    add: [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include]
+    add: [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include-fixed]
+    add: [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/include]
+  end of search list found
+  collapse include dir [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/include/c++/6.3.0] ==> [/opt/hermit/x86_64-hermit/include/c++/6.3.0]
+  collapse include dir [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/include/c++/6.3.0/x86_64-hermit] ==> [/opt/hermit/x86_64-hermit/include/c++/6.3.0/x86_64-hermit]
+  collapse include dir [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/include/c++/6.3.0/backward] ==> [/opt/hermit/x86_64-hermit/include/c++/6.3.0/backward]
+  collapse include dir [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include] ==> [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include]
+  collapse include dir [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include-fixed] ==> [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include-fixed]
+  collapse include dir [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/include] ==> [/opt/hermit/x86_64-hermit/include]
+  implicit include dirs: [/opt/hermit/x86_64-hermit/include/c++/6.3.0;/opt/hermit/x86_64-hermit/include/c++/6.3.0/x86_64-hermit;/opt/hermit/x86_64-hermit/include/c++/6.3.0/backward;/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include;/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include-fixed;/opt/hermit/x86_64-hermit/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(x86_64-hermit-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/hermitux/hermitux-kernel/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_947f1/fast && gmake[1]: Entering directory '/root/hermitux/hermitux-kernel/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_947f1.dir/build.make CMakeFiles/cmTC_947f1.dir/build]
+  ignore line: [gmake[2]: Entering directory '/root/hermitux/hermitux-kernel/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_947f1.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/opt/hermit/bin/x86_64-hermit-g++   -v -o CMakeFiles/cmTC_947f1.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/hermit/bin/x86_64-hermit-g++]
+  ignore line: [Target: x86_64-hermit]
+  ignore line: [Configured with: ../configure --target=x86_64-hermit --prefix=/opt/hermit --with-newlib --disable-multilib --without-libatomic --with-tune=generic --enable-languages=c c++ go fortran lto --disable-nls --disable-shared --disable-libssp --enable-threads=posix --disable-libgomp --enable-tls --enable-lto --disable-symvers]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_947f1.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/cc1plus -quiet -v /usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_947f1.dir/CMakeCXXCompilerABI.cpp.obj -version -o /tmp/ccMwdBVW.s]
+  ignore line: [GNU C++14 (GCC) version 6.3.0 (x86_64-hermit)]
+  ignore line: [	compiled by GNU C version 7.3.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version 0.15]
+  ignore line: [warning: GMP header version 6.1.2 differs from library version 6.2.1.]
+  ignore line: [warning: MPFR header version 4.0.1 differs from library version 4.1.0.]
+  ignore line: [warning: MPC header version 1.1.0 differs from library version 1.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/sys-include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/include/c++/6.3.0]
+  ignore line: [ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/include/c++/6.3.0/x86_64-hermit]
+  ignore line: [ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/include/c++/6.3.0/backward]
+  ignore line: [ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include]
+  ignore line: [ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include-fixed]
+  ignore line: [ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GCC) version 6.3.0 (x86_64-hermit)]
+  ignore line: [	compiled by GNU C version 7.3.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version 0.15]
+  ignore line: [warning: GMP header version 6.1.2 differs from library version 6.2.1.]
+  ignore line: [warning: MPFR header version 4.0.1 differs from library version 4.1.0.]
+  ignore line: [warning: MPC header version 1.1.0 differs from library version 1.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: e2482e9f719f6d8eaa81d1a22f70750e]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_947f1.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/bin/as -v -o CMakeFiles/cmTC_947f1.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccMwdBVW.s]
+  ignore line: [GNU assembler version 2.30.51 (x86_64-hermit) using BFD version (GNU Binutils) 2.30.51.20180517]
+  ignore line: [COMPILER_PATH=/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/:/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/:/opt/hermit/libexec/gcc/x86_64-hermit/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/:/opt/hermit/lib/gcc/x86_64-hermit/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/bin/]
+  ignore line: [LIBRARY_PATH=/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_947f1.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_947f1]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_947f1.dir/link.txt --verbose=1]
+  ignore line: [/opt/hermit/bin/x86_64-hermit-g++  -v CMakeFiles/cmTC_947f1.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_947f1 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/hermit/bin/x86_64-hermit-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-hermit]
+  ignore line: [Configured with: ../configure --target=x86_64-hermit --prefix=/opt/hermit --with-newlib --disable-multilib --without-libatomic --with-tune=generic --enable-languages=c c++ go fortran lto --disable-nls --disable-shared --disable-libssp --enable-threads=posix --disable-libgomp --enable-tls --enable-lto --disable-symvers]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/:/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/:/opt/hermit/libexec/gcc/x86_64-hermit/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/:/opt/hermit/lib/gcc/x86_64-hermit/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/bin/]
+  ignore line: [LIBRARY_PATH=/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_947f1' '-mtune=generic' '-march=x86-64']
+  link line: [ /opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/collect2 -plugin /opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/liblto_plugin.so -plugin-opt=/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrFbboo.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lg -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lhermit -plugin-opt=-pass-through=-lgcc -o cmTC_947f1 /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib/crt0.o /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crti.o /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crtbegin.o -L/opt/hermit/lib/gcc/x86_64-hermit/6.3.0 -L/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib CMakeFiles/cmTC_947f1.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -z max-page-size=0x1000 -z common-page-size=0x1000 -lc -lg -lm -lhermit -lgcc /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crtend.o /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crtn.o]
+    arg [/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccrFbboo.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lg] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lhermit] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_947f1] ==> ignore
+    arg [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib/crt0.o] ==> ignore
+    arg [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crti.o] ==> ignore
+    arg [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crtbegin.o] ==> ignore
+    arg [-L/opt/hermit/lib/gcc/x86_64-hermit/6.3.0] ==> dir [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0]
+    arg [-L/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib] ==> dir [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib]
+    arg [CMakeFiles/cmTC_947f1.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-zmax-page-size=0x1000] ==> ignore
+    arg [-zcommon-page-size=0x1000] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lg] ==> lib [g]
+    arg [-lm] ==> lib [m]
+    arg [-lhermit] ==> lib [hermit]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crtend.o] ==> ignore
+    arg [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crtn.o] ==> ignore
+  collapse library dir [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0] ==> [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0]
+  collapse library dir [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib] ==> [/opt/hermit/x86_64-hermit/lib]
+  implicit libs: [stdc++;m;gcc;c;g;m;hermit;gcc]
+  implicit dirs: [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0;/opt/hermit/x86_64-hermit/lib]
+  implicit fwks: []
+
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: /root/hermitux/hermitux-kernel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_1c145/fast && gmake[1]: Entering directory '/root/hermitux/hermitux-kernel/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_1c145.dir/build.make CMakeFiles/cmTC_1c145.dir/build
+gmake[2]: Entering directory '/root/hermitux/hermitux-kernel/build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_1c145.dir/CMakeFortranCompilerABI.F.obj
+/opt/hermit/bin/x86_64-hermit-gfortran   -v -c /usr/share/cmake-3.18/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_1c145.dir/CMakeFortranCompilerABI.F.obj
+Using built-in specs.
+COLLECT_GCC=/opt/hermit/bin/x86_64-hermit-gfortran
+Target: x86_64-hermit
+Configured with: ../configure --target=x86_64-hermit --prefix=/opt/hermit --with-newlib --disable-multilib --without-libatomic --with-tune=generic --enable-languages=c,c++,go,fortran,lto --disable-nls --disable-shared --disable-libssp --enable-threads=posix --disable-libgomp --enable-tls --enable-lto --disable-symvers
+Thread model: posix
+gcc version 6.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_1c145.dir/CMakeFortranCompilerABI.F.obj' '-mtune=generic' '-march=x86-64'
+ /opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/f951 /usr/share/cmake-3.18/Modules/CMakeFortranCompilerABI.F -ffixed-form -cpp=/tmp/ccj7wMqV.f90 -quiet -v /usr/share/cmake-3.18/Modules/CMakeFortranCompilerABI.F -quiet -dumpbase CMakeFortranCompilerABI.F -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_1c145.dir/CMakeFortranCompilerABI.F.obj -version -fintrinsic-modules-path /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/finclude -o /tmp/ccHRO7IY.s
+GNU Fortran (GCC) version 6.3.0 (x86_64-hermit)
+	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version 0.15
+warning: GMP header version 6.1.2 differs from library version 6.2.1.
+warning: MPFR header version 4.0.1 differs from library version 4.1.0.
+warning: MPC header version 1.1.0 differs from library version 1.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/sys-include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/finclude
+ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include
+ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include-fixed
+ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/include
+End of search list.
+GNU Fortran2008 (GCC) version 6.3.0 (x86_64-hermit)
+	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version 0.15
+warning: GMP header version 6.1.2 differs from library version 6.2.1.
+warning: MPFR header version 4.0.1 differs from library version 4.1.0.
+warning: MPC header version 1.1.0 differs from library version 1.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_1c145.dir/CMakeFortranCompilerABI.F.obj' '-mtune=generic' '-march=x86-64'
+ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/bin/as -v -o CMakeFiles/cmTC_1c145.dir/CMakeFortranCompilerABI.F.obj /tmp/ccHRO7IY.s
+GNU assembler version 2.30.51 (x86_64-hermit) using BFD version (GNU Binutils) 2.30.51.20180517
+COMPILER_PATH=/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/:/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/:/opt/hermit/libexec/gcc/x86_64-hermit/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/:/opt/hermit/lib/gcc/x86_64-hermit/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/bin/
+LIBRARY_PATH=/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib/
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_1c145.dir/CMakeFortranCompilerABI.F.obj' '-mtune=generic' '-march=x86-64'
+Linking Fortran executable cmTC_1c145
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c145.dir/link.txt --verbose=1
+/opt/hermit/bin/x86_64-hermit-gfortran  -v CMakeFiles/cmTC_1c145.dir/CMakeFortranCompilerABI.F.obj -o cmTC_1c145 
+Driving: /opt/hermit/bin/x86_64-hermit-gfortran -v CMakeFiles/cmTC_1c145.dir/CMakeFortranCompilerABI.F.obj -o cmTC_1c145 -l gfortran -l m
+Using built-in specs.
+COLLECT_GCC=/opt/hermit/bin/x86_64-hermit-gfortran
+COLLECT_LTO_WRAPPER=/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/lto-wrapper
+Target: x86_64-hermit
+Configured with: ../configure --target=x86_64-hermit --prefix=/opt/hermit --with-newlib --disable-multilib --without-libatomic --with-tune=generic --enable-languages=c,c++,go,fortran,lto --disable-nls --disable-shared --disable-libssp --enable-threads=posix --disable-libgomp --enable-tls --enable-lto --disable-symvers
+Thread model: posix
+gcc version 6.3.0 (GCC) 
+Reading specs from /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1c145' '-mtune=generic' '-march=x86-64'
+COMPILER_PATH=/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/:/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/:/opt/hermit/libexec/gcc/x86_64-hermit/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/:/opt/hermit/lib/gcc/x86_64-hermit/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/bin/
+LIBRARY_PATH=/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1c145' '-mtune=generic' '-march=x86-64'
+ /opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/collect2 -plugin /opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/liblto_plugin.so -plugin-opt=/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc02V2cn.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lg -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lhermit -plugin-opt=-pass-through=-lgcc -o cmTC_1c145 /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib/crt0.o /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crti.o /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crtbegin.o -L/opt/hermit/lib/gcc/x86_64-hermit/6.3.0 -L/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib CMakeFiles/cmTC_1c145.dir/CMakeFortranCompilerABI.F.obj -lgfortran -lm -lgcc -lm -lgcc -z max-page-size=0x1000 -z common-page-size=0x1000 -lc -lg -lm -lhermit -lgcc /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crtend.o /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1c145' '-mtune=generic' '-march=x86-64'
+gmake[2]: Leaving directory '/root/hermitux/hermitux-kernel/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/root/hermitux/hermitux-kernel/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed Fortran implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/finclude]
+    add: [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include]
+    add: [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include-fixed]
+    add: [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/include]
+  end of search list found
+  collapse include dir [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/finclude] ==> [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/finclude]
+  collapse include dir [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include] ==> [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include]
+  collapse include dir [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include-fixed] ==> [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include-fixed]
+  collapse include dir [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/include] ==> [/opt/hermit/x86_64-hermit/include]
+  implicit include dirs: [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/finclude;/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include;/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include-fixed;/opt/hermit/x86_64-hermit/include]
+
+
+Parsed Fortran implicit link information from above output:
+  link line regex: [^( *|.*[/\])(x86_64-hermit-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/hermitux/hermitux-kernel/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_1c145/fast && gmake[1]: Entering directory '/root/hermitux/hermitux-kernel/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_1c145.dir/build.make CMakeFiles/cmTC_1c145.dir/build]
+  ignore line: [gmake[2]: Entering directory '/root/hermitux/hermitux-kernel/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building Fortran object CMakeFiles/cmTC_1c145.dir/CMakeFortranCompilerABI.F.obj]
+  ignore line: [/opt/hermit/bin/x86_64-hermit-gfortran   -v -c /usr/share/cmake-3.18/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_1c145.dir/CMakeFortranCompilerABI.F.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/hermit/bin/x86_64-hermit-gfortran]
+  ignore line: [Target: x86_64-hermit]
+  ignore line: [Configured with: ../configure --target=x86_64-hermit --prefix=/opt/hermit --with-newlib --disable-multilib --without-libatomic --with-tune=generic --enable-languages=c c++ go fortran lto --disable-nls --disable-shared --disable-libssp --enable-threads=posix --disable-libgomp --enable-tls --enable-lto --disable-symvers]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_1c145.dir/CMakeFortranCompilerABI.F.obj' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/f951 /usr/share/cmake-3.18/Modules/CMakeFortranCompilerABI.F -ffixed-form -cpp=/tmp/ccj7wMqV.f90 -quiet -v /usr/share/cmake-3.18/Modules/CMakeFortranCompilerABI.F -quiet -dumpbase CMakeFortranCompilerABI.F -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_1c145.dir/CMakeFortranCompilerABI.F.obj -version -fintrinsic-modules-path /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/finclude -o /tmp/ccHRO7IY.s]
+  ignore line: [GNU Fortran (GCC) version 6.3.0 (x86_64-hermit)]
+  ignore line: [	compiled by GNU C version 7.3.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version 0.15]
+  ignore line: [warning: GMP header version 6.1.2 differs from library version 6.2.1.]
+  ignore line: [warning: MPFR header version 4.0.1 differs from library version 4.1.0.]
+  ignore line: [warning: MPC header version 1.1.0 differs from library version 1.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/sys-include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/finclude]
+  ignore line: [ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include]
+  ignore line: [ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/include-fixed]
+  ignore line: [ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU Fortran2008 (GCC) version 6.3.0 (x86_64-hermit)]
+  ignore line: [	compiled by GNU C version 7.3.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version 0.15]
+  ignore line: [warning: GMP header version 6.1.2 differs from library version 6.2.1.]
+  ignore line: [warning: MPFR header version 4.0.1 differs from library version 4.1.0.]
+  ignore line: [warning: MPC header version 1.1.0 differs from library version 1.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_1c145.dir/CMakeFortranCompilerABI.F.obj' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/bin/as -v -o CMakeFiles/cmTC_1c145.dir/CMakeFortranCompilerABI.F.obj /tmp/ccHRO7IY.s]
+  ignore line: [GNU assembler version 2.30.51 (x86_64-hermit) using BFD version (GNU Binutils) 2.30.51.20180517]
+  ignore line: [COMPILER_PATH=/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/:/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/:/opt/hermit/libexec/gcc/x86_64-hermit/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/:/opt/hermit/lib/gcc/x86_64-hermit/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/bin/]
+  ignore line: [LIBRARY_PATH=/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_1c145.dir/CMakeFortranCompilerABI.F.obj' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking Fortran executable cmTC_1c145]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c145.dir/link.txt --verbose=1]
+  ignore line: [/opt/hermit/bin/x86_64-hermit-gfortran  -v CMakeFiles/cmTC_1c145.dir/CMakeFortranCompilerABI.F.obj -o cmTC_1c145 ]
+  ignore line: [Driving: /opt/hermit/bin/x86_64-hermit-gfortran -v CMakeFiles/cmTC_1c145.dir/CMakeFortranCompilerABI.F.obj -o cmTC_1c145 -l gfortran -l m]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/hermit/bin/x86_64-hermit-gfortran]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-hermit]
+  ignore line: [Configured with: ../configure --target=x86_64-hermit --prefix=/opt/hermit --with-newlib --disable-multilib --without-libatomic --with-tune=generic --enable-languages=c c++ go fortran lto --disable-nls --disable-shared --disable-libssp --enable-threads=posix --disable-libgomp --enable-tls --enable-lto --disable-symvers]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.3.0 (GCC) ]
+  ignore line: [Reading specs from /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib/libgfortran.spec]
+  ignore line: [rename spec lib to liborig]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1c145' '-mtune=generic' '-march=x86-64']
+  ignore line: [COMPILER_PATH=/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/:/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/:/opt/hermit/libexec/gcc/x86_64-hermit/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/:/opt/hermit/lib/gcc/x86_64-hermit/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/bin/]
+  ignore line: [LIBRARY_PATH=/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/:/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1c145' '-mtune=generic' '-march=x86-64']
+  link line: [ /opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/collect2 -plugin /opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/liblto_plugin.so -plugin-opt=/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc02V2cn.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lg -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lhermit -plugin-opt=-pass-through=-lgcc -o cmTC_1c145 /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib/crt0.o /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crti.o /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crtbegin.o -L/opt/hermit/lib/gcc/x86_64-hermit/6.3.0 -L/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib CMakeFiles/cmTC_1c145.dir/CMakeFortranCompilerABI.F.obj -lgfortran -lm -lgcc -lm -lgcc -z max-page-size=0x1000 -z common-page-size=0x1000 -lc -lg -lm -lhermit -lgcc /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crtend.o /opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crtn.o]
+    arg [/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/hermit/libexec/gcc/x86_64-hermit/6.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc02V2cn.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lg] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lhermit] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_1c145] ==> ignore
+    arg [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib/crt0.o] ==> ignore
+    arg [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crti.o] ==> ignore
+    arg [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crtbegin.o] ==> ignore
+    arg [-L/opt/hermit/lib/gcc/x86_64-hermit/6.3.0] ==> dir [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0]
+    arg [-L/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib] ==> dir [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib]
+    arg [CMakeFiles/cmTC_1c145.dir/CMakeFortranCompilerABI.F.obj] ==> ignore
+    arg [-lgfortran] ==> lib [gfortran]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-zmax-page-size=0x1000] ==> ignore
+    arg [-zcommon-page-size=0x1000] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lg] ==> lib [g]
+    arg [-lm] ==> lib [m]
+    arg [-lhermit] ==> lib [hermit]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crtend.o] ==> ignore
+    arg [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/crtn.o] ==> ignore
+  collapse library dir [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0] ==> [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0]
+  collapse library dir [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0/../../../../x86_64-hermit/lib] ==> [/opt/hermit/x86_64-hermit/lib]
+  implicit libs: [gfortran;m;gcc;m;gcc;c;g;m;hermit;gcc]
+  implicit dirs: [/opt/hermit/lib/gcc/x86_64-hermit/6.3.0;/opt/hermit/x86_64-hermit/lib]
+  implicit fwks: []
+
+
+Determining if the Fortran compiler supports Fortran 90 passed with the following output:
+Change Dir: /root/hermitux/hermitux-kernel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_be7fe/fast && gmake[1]: Entering directory '/root/hermitux/hermitux-kernel/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_be7fe.dir/build.make CMakeFiles/cmTC_be7fe.dir/build
+gmake[2]: Entering directory '/root/hermitux/hermitux-kernel/build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_be7fe.dir/testFortranCompilerF90.f90.obj
+/opt/hermit/bin/x86_64-hermit-gfortran    -c /root/hermitux/hermitux-kernel/build/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTC_be7fe.dir/testFortranCompilerF90.f90.obj
+Linking Fortran executable cmTC_be7fe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be7fe.dir/link.txt --verbose=1
+/opt/hermit/bin/x86_64-hermit-gfortran CMakeFiles/cmTC_be7fe.dir/testFortranCompilerF90.f90.obj -o cmTC_be7fe 
+gmake[2]: Leaving directory '/root/hermitux/hermitux-kernel/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/root/hermitux/hermitux-kernel/build/CMakeFiles/CMakeTmp'
+
+
+

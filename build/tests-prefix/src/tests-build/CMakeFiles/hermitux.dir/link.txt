@@ -1,0 +1,1 @@
+/opt/hermit/bin/x86_64-hermit-gcc CMakeFiles/hermitux.dir/hermitux.c.obj -o hermitux   -L/root/hermitux/hermitux-kernel/build/local_prefix/root/hermitux/hermitux-kernel/prefix/x86_64-hermit/lib  -Wl,-T,/root/hermitux/hermitux-kernel/usr/tests/linker.ld 

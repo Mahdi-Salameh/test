@@ -1,0 +1,2 @@
+/root/hermitux/hermitux-kernel/prefix/bin/proxy
+/root/hermitux/hermitux-kernel/prefix/tools/init.sh

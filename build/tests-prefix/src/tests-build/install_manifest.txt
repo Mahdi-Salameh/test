@@ -1,0 +1,1 @@
+/root/hermitux/hermitux-kernel/prefix/x86_64-hermit/extra/tests/hermitux

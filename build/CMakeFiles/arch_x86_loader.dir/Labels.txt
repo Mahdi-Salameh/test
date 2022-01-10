@@ -1,0 +1,14 @@
+# Target labels
+ arch_x86_loader
+# Source files and their labels
+/root/hermitux/hermitux-kernel/build/CMakeFiles/arch_x86_loader
+/root/hermitux/hermitux-kernel/build/CMakeFiles/arch_x86_loader.rule
+/root/hermitux/hermitux-kernel/build/CMakeFiles/arch_x86_loader-complete.rule
+/root/hermitux/hermitux-kernel/build/arch_x86_loader-prefix/src/arch_x86_loader-stamp/arch_x86_loader-install.rule
+/root/hermitux/hermitux-kernel/build/arch_x86_loader-prefix/src/arch_x86_loader-stamp/arch_x86_loader-mkdir.rule
+/root/hermitux/hermitux-kernel/build/arch_x86_loader-prefix/src/arch_x86_loader-stamp/arch_x86_loader-download.rule
+/root/hermitux/hermitux-kernel/build/arch_x86_loader-prefix/src/arch_x86_loader-stamp/arch_x86_loader-update.rule
+/root/hermitux/hermitux-kernel/build/arch_x86_loader-prefix/src/arch_x86_loader-stamp/arch_x86_loader-patch.rule
+/root/hermitux/hermitux-kernel/build/arch_x86_loader-prefix/src/arch_x86_loader-stamp/arch_x86_loader-configure.rule
+/root/hermitux/hermitux-kernel/build/arch_x86_loader-prefix/src/arch_x86_loader-stamp/arch_x86_loader-build.rule
+/root/hermitux/hermitux-kernel/build/arch_x86_loader-prefix/src/arch_x86_loader-stamp/arch_x86_loader-relink.rule

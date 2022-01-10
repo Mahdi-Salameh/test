@@ -1,0 +1,14 @@
+# Target labels
+ tools
+# Source files and their labels
+/root/hermitux/hermitux-kernel/build/CMakeFiles/tools
+/root/hermitux/hermitux-kernel/build/CMakeFiles/tools.rule
+/root/hermitux/hermitux-kernel/build/CMakeFiles/tools-complete.rule
+/root/hermitux/hermitux-kernel/build/tools-prefix/src/tools-stamp/tools-install.rule
+/root/hermitux/hermitux-kernel/build/tools-prefix/src/tools-stamp/tools-mkdir.rule
+/root/hermitux/hermitux-kernel/build/tools-prefix/src/tools-stamp/tools-download.rule
+/root/hermitux/hermitux-kernel/build/tools-prefix/src/tools-stamp/tools-update.rule
+/root/hermitux/hermitux-kernel/build/tools-prefix/src/tools-stamp/tools-patch.rule
+/root/hermitux/hermitux-kernel/build/tools-prefix/src/tools-stamp/tools-configure.rule
+/root/hermitux/hermitux-kernel/build/tools-prefix/src/tools-stamp/tools-build.rule
+/root/hermitux/hermitux-kernel/build/tools-prefix/src/tools-stamp/tools-relink.rule

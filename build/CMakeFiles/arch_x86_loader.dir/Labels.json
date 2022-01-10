@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/root/hermitux/hermitux-kernel/build/CMakeFiles/arch_x86_loader"
+		},
+		{
+			"file" : "/root/hermitux/hermitux-kernel/build/CMakeFiles/arch_x86_loader.rule"
+		},
+		{
+			"file" : "/root/hermitux/hermitux-kernel/build/CMakeFiles/arch_x86_loader-complete.rule"
+		},
+		{
+			"file" : "/root/hermitux/hermitux-kernel/build/arch_x86_loader-prefix/src/arch_x86_loader-stamp/arch_x86_loader-install.rule"
+		},
+		{
+			"file" : "/root/hermitux/hermitux-kernel/build/arch_x86_loader-prefix/src/arch_x86_loader-stamp/arch_x86_loader-mkdir.rule"
+		},
+		{
+			"file" : "/root/hermitux/hermitux-kernel/build/arch_x86_loader-prefix/src/arch_x86_loader-stamp/arch_x86_loader-download.rule"
+		},
+		{
+			"file" : "/root/hermitux/hermitux-kernel/build/arch_x86_loader-prefix/src/arch_x86_loader-stamp/arch_x86_loader-update.rule"
+		},
+		{
+			"file" : "/root/hermitux/hermitux-kernel/build/arch_x86_loader-prefix/src/arch_x86_loader-stamp/arch_x86_loader-patch.rule"
+		},
+		{
+			"file" : "/root/hermitux/hermitux-kernel/build/arch_x86_loader-prefix/src/arch_x86_loader-stamp/arch_x86_loader-configure.rule"
+		},
+		{
+			"file" : "/root/hermitux/hermitux-kernel/build/arch_x86_loader-prefix/src/arch_x86_loader-stamp/arch_x86_loader-build.rule"
+		},
+		{
+			"file" : "/root/hermitux/hermitux-kernel/build/arch_x86_loader-prefix/src/arch_x86_loader-stamp/arch_x86_loader-relink.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"arch_x86_loader"
+		],
+		"name" : "arch_x86_loader"
+	}
+}

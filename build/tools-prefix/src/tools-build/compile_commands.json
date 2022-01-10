@@ -1,0 +1,52 @@
+[
+{
+  "directory": "/root/hermitux/hermitux-kernel/build/tools-prefix/src/tools-build",
+  "command": "/usr/bin/cc   -std=c99 -pthread -DMAX_ARGC_ENVC=128 -o CMakeFiles/proxy.dir/proxy.c.o -c /root/hermitux/hermitux-kernel/tools/proxy.c",
+  "file": "/root/hermitux/hermitux-kernel/tools/proxy.c"
+},
+{
+  "directory": "/root/hermitux/hermitux-kernel/build/tools-prefix/src/tools-build",
+  "command": "/usr/bin/cc   -std=c99 -pthread -DMAX_ARGC_ENVC=128 -o CMakeFiles/proxy.dir/utils.c.o -c /root/hermitux/hermitux-kernel/tools/utils.c",
+  "file": "/root/hermitux/hermitux-kernel/tools/utils.c"
+},
+{
+  "directory": "/root/hermitux/hermitux-kernel/build/tools-prefix/src/tools-build",
+  "command": "/usr/bin/cc   -std=c99 -pthread -DMAX_ARGC_ENVC=128 -o CMakeFiles/proxy.dir/uhyve.c.o -c /root/hermitux/hermitux-kernel/tools/uhyve.c",
+  "file": "/root/hermitux/hermitux-kernel/tools/uhyve.c"
+},
+{
+  "directory": "/root/hermitux/hermitux-kernel/build/tools-prefix/src/tools-build",
+  "command": "/usr/bin/cc   -std=c99 -pthread -DMAX_ARGC_ENVC=128 -o CMakeFiles/proxy.dir/uhyve-net.c.o -c /root/hermitux/hermitux-kernel/tools/uhyve-net.c",
+  "file": "/root/hermitux/hermitux-kernel/tools/uhyve-net.c"
+},
+{
+  "directory": "/root/hermitux/hermitux-kernel/build/tools-prefix/src/tools-build",
+  "command": "/usr/bin/cc   -std=c99 -pthread -DMAX_ARGC_ENVC=128 -o CMakeFiles/proxy.dir/uhyve-elf.c.o -c /root/hermitux/hermitux-kernel/tools/uhyve-elf.c",
+  "file": "/root/hermitux/hermitux-kernel/tools/uhyve-elf.c"
+},
+{
+  "directory": "/root/hermitux/hermitux-kernel/build/tools-prefix/src/tools-build",
+  "command": "/usr/bin/cc   -std=c99 -pthread -DMAX_ARGC_ENVC=128 -o CMakeFiles/proxy.dir/mini_gzip.c.o -c /root/hermitux/hermitux-kernel/tools/mini_gzip.c",
+  "file": "/root/hermitux/hermitux-kernel/tools/mini_gzip.c"
+},
+{
+  "directory": "/root/hermitux/hermitux-kernel/build/tools-prefix/src/tools-build",
+  "command": "/usr/bin/cc   -std=c99 -pthread -DMAX_ARGC_ENVC=128 -o CMakeFiles/proxy.dir/miniz.c.o -c /root/hermitux/hermitux-kernel/tools/miniz.c",
+  "file": "/root/hermitux/hermitux-kernel/tools/miniz.c"
+},
+{
+  "directory": "/root/hermitux/hermitux-kernel/build/tools-prefix/src/tools-build",
+  "command": "/usr/bin/cc   -std=c99 -pthread -DMAX_ARGC_ENVC=128 -o CMakeFiles/proxy.dir/uhyve-gdb.c.o -c /root/hermitux/hermitux-kernel/tools/uhyve-gdb.c",
+  "file": "/root/hermitux/hermitux-kernel/tools/uhyve-gdb.c"
+},
+{
+  "directory": "/root/hermitux/hermitux-kernel/build/tools-prefix/src/tools-build",
+  "command": "/usr/bin/cc   -std=c99 -pthread -DMAX_ARGC_ENVC=128 -o CMakeFiles/proxy.dir/uhyve-seccomp.c.o -c /root/hermitux/hermitux-kernel/tools/uhyve-seccomp.c",
+  "file": "/root/hermitux/hermitux-kernel/tools/uhyve-seccomp.c"
+},
+{
+  "directory": "/root/hermitux/hermitux-kernel/build/tools-prefix/src/tools-build",
+  "command": "/usr/bin/cc   -std=c99 -pthread -DMAX_ARGC_ENVC=128 -o CMakeFiles/proxy.dir/uhyve-profiler.c.o -c /root/hermitux/hermitux-kernel/tools/uhyve-profiler.c",
+  "file": "/root/hermitux/hermitux-kernel/tools/uhyve-profiler.c"
+}
+]

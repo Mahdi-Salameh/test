@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/root/hermitux/hermitux-kernel/build/CMakeFiles/tools"
+		},
+		{
+			"file" : "/root/hermitux/hermitux-kernel/build/CMakeFiles/tools.rule"
+		},
+		{
+			"file" : "/root/hermitux/hermitux-kernel/build/CMakeFiles/tools-complete.rule"
+		},
+		{
+			"file" : "/root/hermitux/hermitux-kernel/build/tools-prefix/src/tools-stamp/tools-install.rule"
+		},
+		{
+			"file" : "/root/hermitux/hermitux-kernel/build/tools-prefix/src/tools-stamp/tools-mkdir.rule"
+		},
+		{
+			"file" : "/root/hermitux/hermitux-kernel/build/tools-prefix/src/tools-stamp/tools-download.rule"
+		},
+		{
+			"file" : "/root/hermitux/hermitux-kernel/build/tools-prefix/src/tools-stamp/tools-update.rule"
+		},
+		{
+			"file" : "/root/hermitux/hermitux-kernel/build/tools-prefix/src/tools-stamp/tools-patch.rule"
+		},
+		{
+			"file" : "/root/hermitux/hermitux-kernel/build/tools-prefix/src/tools-stamp/tools-configure.rule"
+		},
+		{
+			"file" : "/root/hermitux/hermitux-kernel/build/tools-prefix/src/tools-stamp/tools-build.rule"
+		},
+		{
+			"file" : "/root/hermitux/hermitux-kernel/build/tools-prefix/src/tools-stamp/tools-relink.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"tools"
+		],
+		"name" : "tools"
+	}
+}

@@ -1,0 +1,5 @@
+*.o
+lib*.a
+Makefile.dep
+Makefile
+exports/*
